@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         actMain = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(actMain.getRoot());
 
+
         actMain.btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
